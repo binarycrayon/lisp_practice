@@ -1,4 +1,7 @@
-;; chapter 3 create a music db
+;;;; chapter 3 create a music db
+
+;;; A comment with three semicolons will usually be a paragraph
+;;; comment that applies to a large section of code that follows,
 
 (defun make-cd (title artist rating ripped)
   (list :title title :artist artist :rating rating :ripped ripped))
